@@ -1,0 +1,105 @@
+/*header*/
+.header {
+    background-color: rgb(79, 17, 127);
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(245, 245, 168);
+    margin: auto;
+}
+
+span {
+    background-color: rgb(234, 218, 251);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Main*/
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 95%;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tbody tr:hover {
+    background-color: rgb(247, 244, 244);
+}
+
+thead {
+    color: white;
+    background-color: rgb(79, 17, 127);
+}
+
+tbody {
+    background-color: rgb(234, 218, 251);
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    color: red;
+}
+
+.code {
+    font-family: monospace;
+    background-color: rgb(219, 215, 215);
+    padding: 2px;
+}
+
+.family {
+    font-family: fantasy;
+}
+
+.size {
+    font-size: 1.3em;
+}
+
+.style {
+    font-style: italic;
+}
+
+.weight {
+    font-weight: 800;
+}
+
+.transform {
+    text-transform: lowercase;
+}
+
+.spacing {
+    letter-spacing: 3px;
+}
+
+/*footer*/
+.footer {
+    background-color: rgb(245, 245, 168);
+    width: 100%;
+    height: 3em;
+}
+
+footer p {
+    text-align: center;
+    vertical-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
